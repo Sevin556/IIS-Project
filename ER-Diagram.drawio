@@ -1,1 +1,157 @@
-<mxfile host="app.diagrams.net" modified="2020-10-04T15:51:50.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" version="13.7.7" etag="4NdrXuj43GlMgSjafUH0" type="github"><diagram id="TBFkNftx24fe7RJvOcVh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-04T20:38:06.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="NJILRiAsdDQNkYToVEf7" version="13.7.7" type="github">
+  <diagram id="TBFkNftx24fe7RJvOcVh" name="Page-1">
+    <mxGraphModel dx="2310" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Lyld_AOpsj0X_feWxoig-1" value="Admin" style="shape=umlActor;verticalLabelPosition=middle;verticalAlign=middle;html=1;outlineConnect=0;labelPosition=left;align=right;" vertex="1" parent="1">
+          <mxGeometry x="80" y="960" width="80" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-2" value="Usporiadateľ" style="shape=umlActor;verticalLabelPosition=middle;verticalAlign=middle;html=1;outlineConnect=0;labelPosition=left;align=right;" vertex="1" parent="1">
+          <mxGeometry x="80" y="730" width="80" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-3" value="Pokladník" style="shape=umlActor;verticalLabelPosition=middle;verticalAlign=middle;html=1;outlineConnect=0;labelPosition=left;align=right;" vertex="1" parent="1">
+          <mxGeometry x="80" y="530" width="80" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-4" value="&lt;div&gt;&lt;span&gt;Registrovaný&amp;nbsp;&lt;/span&gt;&lt;/div&gt;zákazník&lt;br&gt;(divák)" style="shape=umlActor;verticalLabelPosition=middle;verticalAlign=middle;html=1;outlineConnect=0;labelPosition=left;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="80" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-5" value="Neregistrovaný &lt;br&gt;zákazník" style="shape=umlActor;verticalLabelPosition=middle;verticalAlign=middle;html=1;outlineConnect=0;labelPosition=left;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="80" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-6" value="Prehliadať a filtrovať festivaly" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="10" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-7" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyld_AOpsj0X_feWxoig-5" target="Lyld_AOpsj0X_feWxoig-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="150" as="sourcePoint" />
+            <mxPoint x="210" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-9" value="Rezervovať lístky" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="90" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-10" value="Dokončiť registráciu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="190" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-11" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="Lyld_AOpsj0X_feWxoig-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="240" as="sourcePoint" />
+            <mxPoint x="350" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-13" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="Lyld_AOpsj0X_feWxoig-5" target="Lyld_AOpsj0X_feWxoig-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="150" as="sourcePoint" />
+            <mxPoint x="210" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-15" value="Upraviť profil" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="290" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-16" value="Sledovať rezervácie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="360" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-19" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Lyld_AOpsj0X_feWxoig-4" target="Lyld_AOpsj0X_feWxoig-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="300" as="sourcePoint" />
+            <mxPoint x="150" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-20" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyld_AOpsj0X_feWxoig-4" target="Lyld_AOpsj0X_feWxoig-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="370" as="sourcePoint" />
+            <mxPoint x="230" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-21" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyld_AOpsj0X_feWxoig-4" target="Lyld_AOpsj0X_feWxoig-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="390" as="sourcePoint" />
+            <mxPoint x="390" y="336.304347826087" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-22" value="Spravovať rezervácie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="525" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-23" value="Vydať lístok" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="600" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-24" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyld_AOpsj0X_feWxoig-3" target="Lyld_AOpsj0X_feWxoig-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="730" as="sourcePoint" />
+            <mxPoint x="440" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-25" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyld_AOpsj0X_feWxoig-3" target="Lyld_AOpsj0X_feWxoig-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="730" as="sourcePoint" />
+            <mxPoint x="440" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-26" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1" source="Lyld_AOpsj0X_feWxoig-3" target="Lyld_AOpsj0X_feWxoig-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="119.5" y="530" as="sourcePoint" />
+            <mxPoint x="119.5" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-27" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Lyld_AOpsj0X_feWxoig-2" target="Lyld_AOpsj0X_feWxoig-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="710" as="sourcePoint" />
+            <mxPoint x="140" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-28" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Lyld_AOpsj0X_feWxoig-1" target="Lyld_AOpsj0X_feWxoig-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="940" as="sourcePoint" />
+            <mxPoint x="120" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-29" value="Založiť festival" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="710" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-30" value="Spravovať obsah" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="775" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-31" value="Spravuje uživateľov" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1020" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-32" value="Priradiť interpretov k festivalu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="840" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-33" value="Vytvára rozpis festivalu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="900" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-34" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyld_AOpsj0X_feWxoig-2" target="Lyld_AOpsj0X_feWxoig-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="790" as="sourcePoint" />
+            <mxPoint x="440" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-36" value="" style="endArrow=classic;html=1;entryX=0.027;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lyld_AOpsj0X_feWxoig-2" target="Lyld_AOpsj0X_feWxoig-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="790" as="sourcePoint" />
+            <mxPoint x="440" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-37" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyld_AOpsj0X_feWxoig-2" target="Lyld_AOpsj0X_feWxoig-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="790" as="sourcePoint" />
+            <mxPoint x="440" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-38" value="" style="endArrow=classic;html=1;entryX=0.036;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lyld_AOpsj0X_feWxoig-2" target="Lyld_AOpsj0X_feWxoig-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="790" as="sourcePoint" />
+            <mxPoint x="440" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lyld_AOpsj0X_feWxoig-39" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyld_AOpsj0X_feWxoig-1" target="Lyld_AOpsj0X_feWxoig-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="790" as="sourcePoint" />
+            <mxPoint x="440" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
