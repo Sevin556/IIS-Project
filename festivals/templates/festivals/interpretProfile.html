@@ -1,0 +1,28 @@
+{% extends "festivals/header.html" %}
+{% load template_auth %}
+{% block content %}
+<div class="container text-center">
+    <header class="jumbotron">
+     
+         <h1>{{ interpret.nazov }}</h1>
+         <hr>
+        <h2>Date of fomrmatiom: {{ interpret.datum_vzniku }}</h2>
+        <h2>Members: {{interpret.clenovia}}</h2>           
+        {% if interpret.albumy %}
+        <h2>Albums: {{interpret.albumy}}</h2>
+        {% endif %}
+        
+        {% if festivals %}
+        <h2>Performing in festivals: </h2>
+        
+        {% for festival in festivals %}
+        <a href="{% url 'festivals-show' festival_Id=festival.id %}"><h4>{{ festival.nazov }}</h4></a>
+        
+        {% endfor %}
+        {% endif %}
+                
+            </header>
+        </div>
+
+
+{% endblock content %}
