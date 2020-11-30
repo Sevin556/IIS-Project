@@ -1,0 +1,41 @@
+{% extends "festivals/header.html" %}
+{% load template_auth %}
+{% block content %}
+<div class="container text-center">
+    <header class="jumbotron">
+ <h1>{{  user.additional.display_name }}</h1>
+     <div class="row">
+          
+                <div class="row">
+                   <div class="caption">
+
+                   </div>
+                    <h2>
+                        Order for {{festival.name}}
+                    </h2>
+                    {% for ticket,count in tickets %}
+                    <p>
+                         {{ ticket.typ}}  {{count}}ks<br>
+                       
+                    </p>
+                    {% endfor %}
+                    State:{{ reservation.stav }}
+                    <h1>
+                        Price:{{ price}}
+                    </h1>
+                </div>
+                 {% if request.user|has_group:"cashier" %}
+                     <a href="{% url 'festivals-confirm-reservation' res_Id=reservation.id %}">Pay</a>
+                 {% else %}
+                     <a href="{% url 'festivals-pay-reservation' res_Id=reservation.id %}">Pay</a>
+                 {% endif %}
+         
+         
+                 <a href="{% url 'festivals-delete-reservation' res_Id=reservation.id %}">Cancel reservation</a>
+        
+                </div>
+            </header>
+        </div>
+
+
+{% endblock content %}
